@@ -30,25 +30,25 @@ PATH=/opt/native-pi-gcc-10.3.0-64/bin:$PATH LD_LIBRARY_PATH=/opt/native-pi-gcc-1
 PATH=/opt/native-pi-gcc-10.3.0-64/bin:$PATH LD_LIBRARY_PATH=/opt/native-pi-gcc-10.3.0-64/lib:$LD_LIBRARY_PATH CFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' CXXFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' make -j4
 
 
-SNES
+SNES - snes9x2010
 
 
 PATH=/opt/native-pi-gcc-10.3.0-64/bin:$PATH LD_LIBRARY_PATH=/opt/native-pi-gcc-10.3.0-64/lib:$LD_LIBRARY_PATH CFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' CXXFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' make -j4
 
 
-Genesis
+Genesis - picodrive
 
 
 PATH=/opt/native-pi-gcc-10.3.0-64/bin:$PATH LD_LIBRARY_PATH=/opt/native-pi-gcc-10.3.0-64/lib:$LD_LIBRARY_PATH CFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' CXXFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' make -j4
 
 
-Mupen64Plus-Next
+N^$ - mupen64plus-next (nx one)
 
 
 PATH=/opt/native-pi-gcc-10.3.0-64/bin:$PATH LD_LIBRARY_PATH=/opt/native-pi-gcc-10.3.0-64/lib:$LD_LIBRARY_PATH CFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' CXXFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' make -j4 WITH_DYNAREC=aarch64 MESA=1 GLES3=1
 
 
-Paralell64
+N64 - paralell64
 
 
 PATH=/opt/native-pi-gcc-10.3.0-64/bin:$PATH LD_LIBRARY_PATH=/opt/native-pi-gcc-10.3.0-64/lib:$LD_LIBRARY_PATH CFLAGS='-march=armv8-a+fp+simd -DARM_FIX -mcpu=cortex-a72  -mtune=cortex-a72 -O3' CXXFLAGS='-march=armv8-a+fp+simd -mcpu=cortex-a72  -mtune=cortex-a72 -O3' make -j$(nproc) WITH_DYNAREC=aarch64 USE_CXD4_NEW=1 USE_SSE2NEON=1
