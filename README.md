@@ -7,17 +7,11 @@ https://github.com/abhiTronix/raspberry-pi-cross-compilers
 Variables set for each build (just run in same terminal window)
 
 - export AR="gcc-ar-10.3.0"
-
 - export CC="gcc-10.3.0"
-
 - export CXX="g++-10.3.0"
-
 - export CPP="cpp-10.3.0"
-
 - export FC="gfortran-10.3.0"
-
 - export RANLIB="gcc-ranlib-10.3.0"
-
 - export LD="$CXX"
 
 
