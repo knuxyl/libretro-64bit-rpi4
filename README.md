@@ -11,7 +11,7 @@ export CXXFLAGS='-march=armv8-a+fp+simd+sb+predres+crypto+crc -mcpu=cortex-a72 -
 
 
 ----RetroArch
-
+```
 git clone --recursive https://github.com/libretro/RetroArch
 
 cd RetroArch
@@ -19,7 +19,7 @@ cd RetroArch
 ./configure --disable-vg --disable-opengl1 --disable-dispmanx --enable-x11 --enable-sdl2 --enable-ffmpeg --enable-udev --disable-sdl --enable-pulse --enable-freetype --enable-7zip --disable-videocore --enable-udev --enable-alsa --enable-opengles --enable-vulkan --enable-opengl --disable-caca
 
 make -j4
-
+```
 
 ----N64 (mupen)
 
