@@ -21,6 +21,13 @@ export RANLIB="gcc-ranlib-10.3.0"
 export LD="$CXX"
 
 
+These cores may run in the retroarch in the debian repo
+
+(from sudo apt install retroarch)
+
+I never checked if it was 64-bit, but it's version 1.7 and the latest is 1.10. I just built retroarch from source. If you don't wan't to mess around with the compilations then it's worth trying to install the retroarch from the debian repo and using these cores.
+
+
 Retroarch
 
 
