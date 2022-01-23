@@ -1,8 +1,38 @@
 # libretro-64bit-rpi4
 64-bit libretro cores for rpi4
 
-GCC aarch64 compiler used to compile retroarch and cores (installed to /opt/)
-https://github.com/abhiTronix/raspberry-pi-cross-compilers
+Raspberry Pi OS Debian Bullseye 64-bit
+
+
+Variables used in each build session
+- d
+- d
+
+
+Retroarch
+- git clone --recursive
+- cd Retroarch
+
+
+mupen
+- make -j4 WITH_DYNAREC=aarch64 FORCE_GLES3=1 HAVE_PARALLEL_RSP=1 HAVE PARALLEL_RDP=1
+
+
+paralell
+- Add -DARM_FIX to the end of each export variables
+- make -j4 WITH_DYNAREC=aarch64 USE_CXD4_NEW=1 USE_SSE2NEON=1 HAVE_PARALLEL=1 HAVE_OPENGL=1 FORCE_GLES=1
+
+bsnes
+- make -j4
+
+
+picodrive
+- ./configure
+- make -j4 -f Makefile.libretro
+- 
+
+
+
 
 Variables set for each build (just run in same terminal window)
 
