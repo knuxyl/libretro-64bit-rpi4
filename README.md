@@ -4,11 +4,12 @@
 Raspberry Pi OS Debian Bullseye 64-bit
 
 ----Export variables
+```
 
 export CFLAGS='-march=armv8-a+fp+simd+sb+predres+crypto+crc -mcpu=cortex-a72 -mtune=cortex-a72 -O3 -funsafe-math-optimizations'
-
 export CXXFLAGS='-march=armv8-a+fp+simd+sb+predres+crypto+crc -mcpu=cortex-a72 -mtune=cortex-a72 -O3 -funsafe-math-optimizations'
 
+```
 
 ----RetroArch
 ```
