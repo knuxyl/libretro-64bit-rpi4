@@ -92,6 +92,7 @@ git clone --recursive https://github.com/flyinghead/flycast
 cd flycast
 mkdir build
 cd build
+make -j4
 
 ```
 
