@@ -3,7 +3,7 @@
 
 Raspberry Pi OS Debian Bullseye 64-bit
 
-----Export variables
+----Export variables (USE THESE ON EACH SESSION)
 ```
 
 export CFLAGS='-march=armv8-a+fp+simd+sb+predres+crypto+crc -mcpu=cortex-a72 -mtune=cortex-a72 -O3 -funsafe-math-optimizations'
@@ -87,15 +87,15 @@ make -j4
 ----Dreamcast (flycast) vulkan only (needs bios)
 ```
 
-Add -DUSE_GLES -DUSE_VULKAN -DUSE_OPENGL to end of export variables
 git clone --recursive https://github.com/flyinghead/flycast
 cd flycast
 mkdir build
 cd build
+cmake ../ -DUSE_GLES -DUSE_VULKAN -DUSE_OPENGL
 make -j4
 
 ```
-
+Might not build without USE_GLES, but opengl doesn't work with this flag
 
 
 
