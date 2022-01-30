@@ -91,11 +91,11 @@ git clone --recursive https://github.com/flyinghead/flycast
 cd flycast
 mkdir build
 cd build
-cmake ../ -DUSE_GLES -DUSE_VULKAN -DUSE_OPENGL
+cmake ../ -DUSE_GLES2=ON -DUSE_VULKAN=ON
 make -j4
 
 ```
-Might not build without USE_GLES, but opengl doesn't work with this flag
+
 
 
 
