@@ -84,7 +84,7 @@ make -j4
 
 ```
 
-----Dreamcast (flycast) vulkan only (needs bios)
+----Dreamcast (flycast) (needs bios)
 ```
 
 git clone --recursive https://github.com/flyinghead/flycast
